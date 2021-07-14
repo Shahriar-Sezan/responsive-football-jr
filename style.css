@@ -279,4 +279,23 @@ body{
 .rights-container{
     padding-top: 50px;
     text-align: center;
-}           
+} 
+
+/* media queries */
+
+/* mobile devises */
+
+@media only screen and(max-width:688px) {
+    .first-container{
+        width: 360px;
+    }
+    .article{
+        grid-template-columns: repeat(1);
+    }
+    .player .introduction-one .animation-one .background-container .article{
+        flex-direction: column;
+    }
+    .highlights{
+        width: 360px;
+    }
+}
